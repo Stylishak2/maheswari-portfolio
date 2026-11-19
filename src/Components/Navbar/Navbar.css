@@ -1,0 +1,85 @@
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 170px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+.nav-Contact{
+    padding: 20px 30px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#f07605a5 0.36%,#3fe70c);
+    font-size: 22px;
+    cursor: pointer;
+}
+.nav-Contact:hover{
+    transform: scale(1.05);
+}
+
+ 
+.anchor-link {
+  text-decoration: none;
+  /* color: linear-gradient( #eca007, #a7e90d); */
+  /* color: rgb(243, 10, 185); */
+    color: #c084fc;
+
+} 
+
+/* ✅ Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+  .navbar {
+    margin: 20px 50px;
+  }
+
+  .nav-menu {
+    gap: 30px;
+    font-size: 18px;
+  }
+
+  .nav-Contact {
+    padding: 15px 25px;
+    font-size: 18px;
+  }
+}
+
+/* ✅ Mobile ( to 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    margin: 10px 20px;
+    flex-direction: column; /* ✅ stack items */
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .nav-menu {
+    flex-direction: column; /* ✅ menu vertical */
+    gap: 15px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .nav-Contact {
+    width: 100%;       /* ✅ full width button */
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+/* ✅ Small Mobile (below 480px) */
+@media (max-width: 480px) {
+  .nav-menu {
+    font-size: 14px;
+  }
+
+  .nav-Contact {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

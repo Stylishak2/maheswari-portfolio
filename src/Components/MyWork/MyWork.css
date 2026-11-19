@@ -1,0 +1,150 @@
+/* .image{
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.arrow{
+  width: 40px;
+  height: 40px;
+}
+
+.mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px 70px;
+}
+
+.mywork-title{
+    position: relative;
+}
+
+.mywork-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.mywork-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.mywork-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.mywork-container img{
+    box-sizing: border-box;
+    width: 350px;
+    height: 250px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.mywork-container img:hover{
+    transform: scale(1.10);
+    border: 4px solid #ff00ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.mywork-showmore{
+    display: flex;
+    gap: 15px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 20px 60px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 200px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.mywork-showmore:hover{
+    gap: 30px;
+    transition: 0.6s;
+} */
+
+/* Main Section */
+.mywork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+/* Title */
+.mywork-title {
+  position: relative;
+  text-align: center;
+}
+
+.mywork-title h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+/* Grid Layout */
+.mywork-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  width: 100%;
+}
+
+/* Image Style */
+.mywork-container img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid white;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.mywork-container img:hover {
+  transform: scale(1.50);
+  border: 3px solid #ff00ff;
+}
+
+/* Show More Button */
+.mywork-showmore {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 40px;
+  border: 2px solid white;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+/* Button Hover */
+.mywork-showmore:hover {
+  gap: 20px;
+  background-color: #ff00ff;
+  color: white;
+}
+
+/* Arrow */
+.arrow {
+  width: 25px;
+  height: 25px;
+}
