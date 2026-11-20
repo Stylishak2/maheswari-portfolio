@@ -3,9 +3,8 @@ import mahi from "../../assets/mahi.png";
 const Hero = () => {
 
   const openResume = () => {
-    window.open("/Mahi77_resume.pdf", "_blank");
-  };
-
+  window.open("/Mahi77_resume.pdf", "_blank", "noopener,noreferrer");
+};
   return (
     <div className='hero' id='home'>
      <img src= {mahi}/>
