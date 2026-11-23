@@ -78,7 +78,7 @@
 
 /* Progress Bar */
 .about-skill hr {
-  flex: 1;
+  /* flex: 1; */
   height: 8px;
   border-radius: 20px;
   border: none;
