@@ -9,16 +9,13 @@ const Hero = () => {
     <div className='hero' id='home'>
      <img src= {mahi}/>
 
-      <h1>I am Maheswari, Frontend Developer</h1>
+      <h1>I am Maheswari, Frontend Developer</h1>``
 
       <p>
-        I am a frontend developer with experience building modern web applications
+        I am a React&Nextjs developer with experience building modern web applications
       </p>
 
       <div className='hero-action'>
-        {/* <div className='hero-connect' id="contact">
-          Contact Me
-        </div> */}
         <div
   className="hero-connect"
   onClick={() =>
