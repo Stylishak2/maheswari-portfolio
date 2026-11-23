@@ -58,7 +58,7 @@ const Contact = () => {
 
             <div className="contact-detail">
               <img className='image' src={map} alt='location-icon' />
-              <p>Rakkala kondapalli</p>
+              <p>Chennai</p>
             </div>
 
           </div>
